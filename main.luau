@@ -1,4 +1,5 @@
 repeat wait(1) until game.Players.LocalPlayer ~= nil
+repeat wait() until game:IsLoaded() == true
 
 wait_t = getgenv().wait_t
 
