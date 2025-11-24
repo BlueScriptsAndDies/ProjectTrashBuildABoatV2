@@ -1,4 +1,4 @@
-repeat wait(1) until game.Player.LocalPlayer ~= nil
+repeat wait(1) until game.Players.LocalPlayer ~= nil
 
 wait_t = getgenv().wait_t
 
